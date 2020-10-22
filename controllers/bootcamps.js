@@ -9,7 +9,7 @@ exports.getBootcamps = (req, res, next ) =>{
 //@desc   Get Only one  bootcamps
 //@route  GET /api/v1/bootcamps/:id
 //@access Public 
-exports.getBootcamps = (req, res, next ) =>{
+exports.getBootcamp = (req, res, next ) =>{
     res.status(200).json({success:true, msg:`Display single  Bootcamps ${req.params.id}`});
 }; 
 
