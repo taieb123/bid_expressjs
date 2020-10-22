@@ -9,7 +9,7 @@ const connectDB = async () => {
 
      });
 
-     console.log(`MongoDB Connecter: ${conn.connection.host}`);
+     console.log(`MongoDB Connecter: ${conn.connection.host}`.cyan.underline.bold);
 };
 
 module.exports = connectDB;
